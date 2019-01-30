@@ -17,22 +17,16 @@ end
 
 
 def word_substituter(tweet)
-#first I turn Str to array to iterate
-  
-  tweet.split()
-
-    shortenedTweet = []
-
-#how iterate over each word
-
-  tweet.each do |word|
-   if dictionary[word.downcase]
+  array = []
+  split_tweet = tweet.split
+  split_tweet.each do |word|
+    if dictionary[word.downcase]
       word = dictionary[word.downcase]
-      shortenedTweet << word
+      array << word
     else
-      shortenedTweet << word
+      array << word
     end
   end
-  shortenedTweet.join(" ")
+  array.join(" ")
 end
 
