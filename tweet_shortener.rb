@@ -31,8 +31,8 @@ def word_substituter(tweet)
 end
 
 
-def bulk_tweet_shortener(tweet_array)
-  tweet_array.each do |words|
+def bulk_tweet_shortener(tweets)
+  tweets.each do |words|
     if words == word_substituter(tweet)
       puts words
     else words == words
