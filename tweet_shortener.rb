@@ -33,11 +33,6 @@ end
 
 def bulk_tweet_shortener(tweets)
   tweets.each do |words|
-    if word_substituter == words
-      puts words
-    else words == words
-      
-    end
-    words.join(" ")
+   puts word_substituter(tweet)
   end
 end
