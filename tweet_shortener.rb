@@ -30,3 +30,4 @@ def word_substituter(tweet)
   array.join(" ")
 end
 
+def bulk_tw
