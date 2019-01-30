@@ -33,7 +33,7 @@ end
 
 def bulk_tweet_shortener(tweets)
   tweets.each do |words|
-    if words == word_substituter(tweet)
+    if words == word_substituter
       puts words
     else words == words
       
