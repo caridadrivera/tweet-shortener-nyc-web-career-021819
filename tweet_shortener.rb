@@ -38,6 +38,6 @@ def bulk_tweet_shortener(tweets)
     else words == words
       
     end
+    words.join(" ")
   end
-  words.join(" ")
 end
